@@ -1,0 +1,275 @@
+/** Wdesignkit banner */
+.theplus_wdkit_new_banner {
+    display: none;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    background: #040483;
+    margin: 20px 0;
+    padding: 0px 50px;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_left {
+    width: 45%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_heading {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #ffffff;
+    padding-bottom: 9px;
+    font-size: 25px;
+    line-height: 39px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.theplus_wdkit_new_banner .theplus_new_banner_sub_txt {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #b1b1d9;
+    padding-bottom: 20px;
+    margin: 0;
+    position: relative;
+}
+.theplus_wdkit_new_banner_btn_group{
+    white-space: nowrap;
+    text-align: center;
+}
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 15px;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn,.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus-visit-plugin {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    background-color: #c22076;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.theplus_wdkit_new_banner.theplus_pink_card .theplus-visit-plugin{
+    background: #040483 !important;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn:hover {
+    background-color: #9b1a5e;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn_link {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+    position: relative;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn_link::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: -5px;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn_link:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn_link:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_right {
+    width: 45%;
+    padding-top: 21px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: flex-end;
+}
+
+.theplus_wdkit_new_banner .theplus_wdkit_new_banner_right .theplus_wdkit_banner_hero_img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner {
+    width: 50%;
+    flex-direction: row;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner .theplus_wdkit_new_banner_heading {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner .theplus_new_banner_sub_txt {
+    font-size: 12px;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner .theplus_wdkit_new_banner_right {
+    height: -moz-fit-content;
+    height: fit-content;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner .theplus_wdkit_new_banner_left {
+    width: 100%;
+    padding: 25px 0;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner .theplus_wdkit_new_banner_right {
+    width: 100%;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner.theplus_pink_card {
+    background-color: #C22076;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner.theplus_pink_card .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn {
+    background-color: #040483;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner.theplus_pink_card .theplus_wdkit_new_banner_btn_group .theplus_wdkit_new_banner_btn:hover {
+    background-color: #02026c;
+}
+
+.theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner.theplus_pink_card .theplus_new_banner_sub_txt {
+    color: rgba(255, 255, 255, 0.6980392157);
+}
+
+@media (max-width:1440px) {
+    .theplus_wdkit_new_banner {
+        padding: 0 25px;
+    }
+}
+
+@media (max-width:1024px) {
+
+    .theplus_wdkit_new_banner {
+        padding: 0 32px;
+    }
+
+    .theplus_wdkit_new_banner .theplus_wdkit_new_banner_left {
+        padding: 32px 0;
+    }
+
+    .theplus_wdkit_new_banner .theplus_wdkit_new_banner_heading {
+        font-size: 21px;
+    }
+
+    .theplus_wdkit_new_banner .theplus_new_banner_sub_txt {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .theplus_wdkit_new_banner .theplus_wdkit_new_banner_left {
+        width: 49%;
+    }
+
+    .theplus_wdkit_new_banner .theplus_wdkit_new_banner_heading {
+        font-size: 19px;
+    }
+
+    .theplus_wdkit_new_banner .theplus_new_banner_sub_txt {
+        font-size: 12px;
+    }
+
+    .theplus_wdkit_new_banner .theplus_wdkit_new_banner_right {
+        width: 49%;
+    }
+
+    .theplus_wdkit_new_banner_bottom_sm_card .theplus_wdkit_new_banner{
+        flex-direction: column;
+    }
+
+}
+
+
+@media (max-width:568px) {
+    .theplus_wdkit_new_banner {
+        flex-direction: column;
+    }
+
+    .theplus_wdkit_new_banner .theplus_wdkit_new_banner_left {
+        width: 100%;
+    }
+
+    .theplus_wdkit_new_banner .theplus_wdkit_new_banner_right {
+        align-self: center;
+        width: 100%;
+    }
+}
+
+.wkit-publish-loader {
+    justify-content: center;
+    align-items: center;
+}
+
+.theplus-enable-text{
+    margin: 0px;
+}
+
+.wb-loader-circle {
+    display: none;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    width: 18px;
+    border-top: 4px solid #FFFFFF59;
+    height: 18px;
+    -webkit-animation: spin 1.5s linear infinite;
+    animation: spin 1.5s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

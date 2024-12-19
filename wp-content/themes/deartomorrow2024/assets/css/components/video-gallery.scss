@@ -1,0 +1,27 @@
+/*--------------------------------------------------------------
+## Video Gallery
+--------------------------------------------------------------*/
+.video-gallery {
+  .video-wrapper {
+    @apply bg-black flex items-center inline-block overflow-hidden relative;
+
+    .play-count {
+      display: flex;
+      align-items: center;
+      position: absolute;
+      left: 18px;
+      bottom: 12px;
+      color: white;
+
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 8px;
+        height: 8px;
+        margin-right: 4px;
+        background-size: cover;
+        background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAAoUlEQVQ4ja3Uy2lCYRBA4YmmAsEGIpagSEpILyLiOgXownSTBkRCeghxo1YQUNx8ErwXURchzn9gtod5B97RQ/wnbsDOiUlWtHbmE0/3ijYu2WNUQlSzQKeESJXdsISo5gPdEqJfDhiXENVs8Xrtadyq/6QdEa1sRnM8Zkr7xnO22dPs+L/Qzy7kDA+Zo11hcO/R/lSSNzQzb2SJl9Rji4gjRg43Ak2Vrl0AAAAASUVORK5CYII=")
+      }
+    }
+  }
+}

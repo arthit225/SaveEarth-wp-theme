@@ -1,0 +1,396 @@
+#sb_instagram.sbi_moderation_mode p,
+#sb_instagram.sbi_moderation_mode label,
+#sb_instagram.sbi_moderation_mode a{
+    font-family: sans-serif;
+}
+#sb_instagram.sbi_moderation_mode .sbi_follow_btn {
+    display: none;
+}
+#sb_instagram .sbi_moderation_link .fa,
+.sbi_moderation_mode .sbi_close_mod .fa,
+.sbi_mod_submit_mod .fa,
+#sb_instagram .sbi_moderation_link svg,
+.sbi_moderation_mode .sbi_close_mod svg,
+.sbi_mod_submit_mod svg{
+    margin-right: 6px;
+    width: 1em;
+}
+.sbi_moderation_mode .sbi_mod {
+    padding: 10px;
+    text-align: center;
+}
+.sbi_mod_post_status {
+    position:absolute;
+    top: 0;
+    right: 0;
+    padding: 12px 13px 14px 16px;
+    color: #fff;
+
+    -moz-border-radius-bottom-left: 4px;
+    -webkit-border-bottom-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    z-index: 10;
+}
+.sbi_mod_post_status .fa,
+.sbi_mod_post_status svg{
+    font-size: 28px;
+    font-weight: 700;
+}
+.sbi_mod_exclude{
+    background: #e5593d;
+}
+.sbi_mod_include{
+    background: #4e9c2b;
+}
+.sbi_mod_user{
+    display: block;
+    padding: 0 0 5px 0;
+}
+.sbi_mod input,
+.sbi_mod label{
+    cursor: pointer;
+}
+.sbi_mod_block{
+    padding: 3px;
+    margin-bottom: 5px;
+}
+.sbi_mod_user input {
+    width: 100%;
+    padding: 3px;
+    line-height: 1;
+    font-size: 11px;
+    text-align: center;
+}
+.sbi_mod_block:hover,
+.sbi_mod_block:focus{
+    background: rgba(0,0,0,0.05);
+    color: #bf2c0f;
+    border-radius: 4px;
+}
+.sbi_mod_block label{
+    width: 100%;
+    display: block;
+}
+.sbi_mod_block_user{
+    position: relative;
+    top: 1px;
+}
+.sbi_mod_submit_mod:hover,
+.sbi_mod_submit_mod:focus{
+    background: #488a2b;
+}
+.sbi_mod_type_header{
+    padding: 0 0 10px 0;
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sbi_mod_saved{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 999999;
+    background: rgba(255,255,255,0.9);
+    padding: 18px 22px;
+    margin: -32px 0 0 -60px;
+    border-radius: 4px;
+    color: #488a2b;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.sbi_mod_saved .fa,
+.sbi_mod_saved svg{
+    margin-right: 3px
+}
+
+
+#sb_instagram.sbi_moderation_mode:first-child{
+    position: relative;
+    z-index: 999999;
+    background: #f9f9f9;
+}
+.sbi_mod_mode_toolbar {
+    height: 64px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: #fff;
+    padding: 0 17px;
+    z-index: 99;
+    border-bottom: 1px solid #E8E8EB;
+}
+.sbi_mod_mode_heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+
+    color: #141B38;
+}
+.sbi-fb-hd-btn {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+/*grey*/
+.sb-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+#sb_instagram.sbi_moderation_mode a.sb-button {
+    text-decoration: none;
+}
+.sb-button-standard{
+    position: relative;
+    font-style: normal;
+    font-size: 14px;
+    padding: 10px 20px;
+    line-height: 16px;
+}
+.sb-button-small.sb-button-left-icon {
+    padding-left: 32px;
+}
+.sb-button-small.sb-button-right-icon {
+    padding-right: 32px;
+}
+.sb-button-small.sb-button-left-icon svg {
+    position: absolute;
+    left: 13px;
+}
+.sb-button-small.sb-button-right-icon svg {
+    position: absolute;
+    right: 13px;
+}
+.sb-button-standard.sb-button-right-icon {
+    padding: 10px 39px 10px 20px;
+}
+.sb-button-standard.sb-button-right-icon svg {
+    right: 13px;
+    left: auto;
+}
+
+.sb-button-small {
+    position: relative;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 6px 12px;
+    line-height: 160%;
+}
+
+.sb-button-no-border {
+    border-radius: 0 !important;
+    border: none !important;
+}
+#sb_instagram.sbi_moderation_mode .sb-btn-grey{
+    background: #F3F4F5!important;
+    color: #141B38!important;
+    border: 1px solid #D0D1D7!important;
+}
+#sb_instagram.sbi_moderation_mode .sb-btn-grey:hover{
+    background: #fff!important;
+    color: #141B38!important;
+    border: 1px solid #DCDDE1!important;
+}
+#sb_instagram.sbi_moderation_mode .sb-btn-grey:focus,
+#sb_instagram.sbi_moderation_mode .sb-btn-grey:active{
+    background: #E8E8EB!important;
+    color: #141B38!important;
+    border: 1px solid #D0D1D7!important;
+}
+/*orange*/
+.sb-btn-orange{
+    background: #FE544F!important;
+    color: #fff!important;
+}
+.sb-btn-orange:hover{
+    background: #EC352F!important;
+    color: #fff!important;
+}
+.sb-btn-orange:focus{
+    background: #BC120E!important;
+    color: #fff!important;
+}
+#sb_instagram.sbi_moderation_mode .sbi-fb-hd-btn{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: 1px solid;
+    -webkit-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+#sb_instagram.sbi_moderation_mode .sbi-fb-header-right .sb-button svg {
+    margin-right: 9px;
+}
+
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_customizer {
+    padding-top:64px;
+
+}
+.sbi_mod_mode_flex_row {
+    display: flex;
+    flex-direction: row;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_sidebar {
+    position: absolute;
+    width: 375px;
+    left: 0px;
+    top: 64px;
+    bottom: -30px;
+    background: #FFFFFF;
+    box-shadow: 4px 0px 14px rgba(0, 0, 0, 0.05), 1px 0px 4px rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    height: 100vh;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mode_mode_sidebar_section {
+    padding: 17px 20px;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mode_mode_sidebar_section.sbi_mode_mode_border {
+    border-bottom: 1px solid #E8E8EB;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_feed_wrap {
+    position: absolute;
+    width: calc(100% - 375px);
+    left: 375px;
+    top: 64px;
+    padding: 50px 30px 200px;
+    z-index: 9999999999999999;
+    background: #FFFFFF;
+    max-height: 100vh;
+    box-shadow: 4px 0px 14px rgba(0, 0, 0, 0.05), 1px 0px 4px rgba(0, 0, 0, 0.1);
+    overflow-y: scroll;
+}
+.sbi_mode_mode_sidebar_section .sbi_mod_mode_heading{
+    display: block;
+}
+.sbi_mode_mode_sidebar_section .sbi_mod_mode_heading,
+.sbi_mod_mode_sidebar_subsection{
+    margin-bottom: 12px;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_type_select_wrap_box {
+    display: flex;
+    flex-direction: row;
+
+    padding: 12px;
+
+    border: 1px solid #E8E8EB;
+    border-radius: 1px;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_sidebar_subsection label {
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 160%;
+    color: #141B38;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_type_select_wrap_box label {
+    margin-top: -4px;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_type_select_wrap_box label span {
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 160%;
+
+    color: #141B38;
+}
+#sb_instagram.sbi_moderation_mode label {
+    cursor: pointer;
+}
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_type_select_wrap_box.sbi_mod_mode_selected {
+    background: #F7FDFF;
+    border: 1px solid #0096CC;
+}
+.sbi_mod_mode_tooltip {
+    padding: 12px 17px;
+    background: #FFF7E5;
+
+    border: 1px solid #FFEFCC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+
+    color: #663D00;
+}
+.sbi_mod_mode_tooltip span,
+.sbi_mod_mode_text{
+    margin-left: 12px;
+}
+.sbi_moderation_mode .sbi_mod_submit_mod {
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+
+#sb_instagram.sbi_moderation_mode .sbi_mod_mode_sidebar {
+    position: absolute;
+    width: 375px;
+    left: 0px;
+    top: 64px;
+    bottom: -30px;
+    background: #FFFFFF;
+    box-shadow: 4px 0px 14px rgba(0, 0, 0, 0.05), 1px 0px 4px rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    height: 100vh;
+}
+
+@media all and (max-width: 800px) {
+    #sb_instagram.sbi_moderation_mode .sbi_mod_mode_sidebar {
+        width: 225px;
+    }
+    #sb_instagram.sbi_moderation_mode .sbi_mod_mode_feed_wrap {
+        position: absolute;
+        width: calc(100% - 225px);
+        left: 225px;
+        top: 64px;
+    }
+}
+@media all and (max-width: 500px) {
+    .sbi_mod_mode_toolbar {
+        position: relative;
+        display: block;
+    }
+    #sb_instagram.sbi_moderation_mode .sbi_mod_mode_sidebar {
+        width: 100%;
+        position: relative;
+        display: block;
+        height: auto;
+    }
+    #sb_instagram.sbi_moderation_mode .sbi_mod_mode_feed_wrap {
+        position: relative;
+        width: 100%;
+        left: 0;
+        top: 64px;
+    }
+}

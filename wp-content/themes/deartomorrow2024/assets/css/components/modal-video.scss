@@ -1,0 +1,165 @@
+#lvideo-wrap {
+  position: fixed;
+  height: 100dvh;
+  z-index: 9991;
+  opacity: 0;
+  visibility: hidden;
+
+  &,
+  &:after,
+  .lvideo-overlay {
+    left: 0;
+    top: 0;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+    box-sizing: border-box;
+  }
+
+  &:after,
+  .lvideo-overlay {
+    height: 100%;
+    position: absolute;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    background-color: var(--midnight-blue);
+    opacity: 0;
+    z-index: -1;
+  }
+
+  .lvideo-container {
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  video,
+  iframe {
+    border-radius: 12px;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #000;
+
+    z-index: 10;
+    box-shadow: 0 0 19px rgba(0, 0, 0, 0.16);
+    display: block;
+    max-width: 1280px;
+    height: auto;
+    width: 90%;
+    aspect-ratio: 16 / 9;
+  }
+
+  video {
+    object-fit: cover;
+  }
+
+  .lvideo-close {
+    background-color: var(--paper-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 5%;
+    top: 5%;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    padding: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 150;
+    padding-left: 2px;
+    svg {
+      fill: var(--midnight-blue);
+    }
+    &:focus {
+      outline: none;
+    }
+    &:hover {
+      background-color: var(--midnight-blue);
+      svg {
+        fill: var(--paper-white);
+      }
+      &:before,
+      &:after {
+        background-color: var(--paper-white);
+      }
+    }
+  }
+
+  &.active {
+    opacity: 1;
+    visibility: visible;
+
+    &:after {
+      opacity: 0.5;
+    }
+  }
+}
+
+// custom css
+
+body {
+  background-color: #333;
+  color: var(--paper-white);
+}
+
+.play-btn-animated {
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--paper-white);
+  border-radius: 100px;
+  transition: all 0.3s ease;
+  line-height: 100px;
+  position: relative;
+  padding: 0;
+  cursor: pointer;
+  border: 0;
+  &:before,
+  &:after {
+    content: "";
+    border: 1px solid;
+    border-color: var(--paper-white);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 1;
+    animation: 1s it-zoom linear infinite;
+  }
+
+  &:before {
+    animation-delay: 0.5s;
+  }
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  i {
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 15px 0 15px 15px;
+    border-color: transparent transparent transparent #333;
+    margin: auto;
+  }
+}
+
+@keyframes it-zoom {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}

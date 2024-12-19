@@ -1,0 +1,30 @@
+/*--------------------------------------------------------------
+## Home
+--------------------------------------------------------------*/
+.letters-swiper {
+  background-image: url("/wp-content/themes/deartomorrow2024/assets/img/home_bg_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .swiper-slide {
+    @apply rounded-md overflow-hidden;
+    img {
+      @apply w-full h-full;
+    }
+  }
+
+  .swiper-next-button, .swiper-prev-button {
+    position: relative !important;
+    top: 0!important;
+    margin-top: 0!important;
+  }
+
+  .swiper-prev-button:after, .swiper-rtl .swiper-next-button:after {
+    content: none !important;
+  }
+
+  .swiper-next-button:after, .swiper-rtl .swiper-prev-button:after{
+    content: none !important;
+  }
+
+}

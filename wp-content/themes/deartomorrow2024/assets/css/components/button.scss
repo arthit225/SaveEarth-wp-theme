@@ -1,0 +1,25 @@
+@layer components {
+  .btn {
+    @apply rounded-lg font-sans font-bold text-xs leading-3 bg-midnight-blue py-4 px-6 text-paper-white hover:bg-paper-white hover:text-midnight-blue uppercase cursor-pointer transition-colors;
+
+    &--circle-btn {
+      @apply rounded-full !w-10 !h-10 p-2 flex items-center justify-center inline-block;
+    }
+
+    &--cta-btn {
+      @apply flex text-center py-3 px-5 rounded-md w-fit items-center bg-btn-bkg backdrop-blur-sm inline-block hover:bg-btn-bkg hover:text-paper-white;
+
+      &::after {
+        content: "";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        margin-left: 10px;
+        background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTkiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOSAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik05LjIwNTgxIDE4QzE0LjE3NjQgMTggMTguMjA1OCAxMy45NzA2IDE4LjIwNTggOUMxOC4yMDU4IDQuMDI5NDQgMTQuMTc2NCAwIDkuMjA1ODEgMEM0LjIzNTI1IDAgMC4yMDU4MTEgNC4wMjk0NCAwLjIwNTgxMSA5QzAuMjA1ODExIDEzLjk3MDYgNC4yMzUyNSAxOCA5LjIwNTgxIDE4Wk03LjQzNDcyIDEyLjkwNzVMMTMuNzgxMSA4LjgyMDZMNy40MzQ3MiA0LjczMzY5TDcuNDM0NzIgMTIuOTA3NVoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=")
+      }
+    }
+    &--link {
+      @apply underline text-xl bg-transparent normal-case hover:text-paper-white hover:bg-transparent;
+    }
+  }
+}

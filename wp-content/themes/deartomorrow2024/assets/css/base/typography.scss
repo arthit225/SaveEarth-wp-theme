@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Louize";
+  src: url("/wp-content/themes/deartomorrow2024/assets/fonts/Louize.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
+  src: url("/wp-content/themes/deartomorrow2024/assets/fonts/PublicSans.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.font-louize {
+  font-family: "Louize", serif;
+}
+.font-public-sans {
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
+}
+
+.h {
+  &1 {
+    font-family: "Louize", serif;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    font-size: 42px;
+    font-weight: 400;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @screen md {
+      font-size: 84px;
+    }
+    @screen lg {
+      font-size: 128px;
+    }
+  }
+  &2 {
+    font-family: "Louize", serif;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @screen md {
+      font-size: 64px;
+    }
+    @screen lg {
+      font-size: 96px;
+    }
+  }
+  &3 {
+    font-family: "Louize", serif;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: -0.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @screen md {
+      font-size: 48px;
+    }
+    @screen lg {
+      font-size: 64px;
+    }
+  }
+  &4 {
+    font-family: "Louize", serif;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @screen md {
+      font-size: 32px;
+    }
+    @screen lg {
+      font-size: 48px;
+    }
+  }
+  &5 {
+    font-family: "Louize", serif;
+    font-size: 18px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @screen md {
+      font-size: 24px;
+    }
+    @screen lg {
+      font-size: 32px;
+    }
+  }
+  &6 {
+  }
+}
+
+.desc {
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.175;
+  &-xl {
+    font-size: 29px;
+  }
+  &-sm {
+    font-size: 14px;
+  }
+  &-xs {
+    font-size: 12px;
+  }
+  &-xxs {
+    font-size: 11px;
+  }
+  span {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: false;
+  }
+}
+
+.video-gallery .play-count {
+  font-family: "Public Sans", Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  line-height: 1.175;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}

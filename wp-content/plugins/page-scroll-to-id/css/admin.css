@@ -1,0 +1,256 @@
+/* admin styling */
+
+.plugin-info, .plugin-version, .repeatable-info, .donate{
+	color: #777;
+}
+
+.plugin-header{
+	overflow: hidden;
+	border-bottom: 1px solid #dfdfdf;
+	margin-bottom: 1.4em;
+}
+
+.plugin-info{
+	float: left;
+	width: 75%;
+	margin-right: 5%;
+	font-style: italic;
+}
+
+.plugin-info > *{
+	margin-right: 10px;
+}
+
+.mPS2id-external-link .dashicons-external{
+	font-size: 100%;
+	text-decoration: none;
+}
+
+.plugin-version{
+	float: right;
+	text-align: right;
+	width: 20%;
+}
+
+.repeatable-group{
+	overflow: hidden;
+}
+
+.js .wrap .metabox-holder form{
+	opacity: 0;
+}
+
+.repeatable,.sortable-placeholder{
+	float: left;
+	margin-right: 1.4em;
+	margin-bottom: 1.4em;
+}
+
+.repeatable-info{
+	font-size: 0.9em;
+}
+
+.repeatable-info .shortcode-info .code code{
+	background: none;
+}
+
+.repeatable-info .shortcode-info:hover .code code{
+	background-color: rgba(0,0,0,0.07);
+}
+
+.repeatable .form-table{
+	max-width: 492px;
+}
+
+.repeatable.closed{
+	width: 492px;
+	max-width: 100%;
+}
+
+.repeatable .form-table th{
+	padding-left: 5px;
+}
+
+.repeatable .form-table td{
+	padding-right: 5px;
+}
+
+.repeatable .form-table tr:hover th, .repeatable .form-table tr:hover td{
+	background-color: rgba(0,0,0,0.07);
+}
+
+.repeatable-info{
+	padding: 0 10px 1em 10px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.repeatable-tools{
+	padding: 1em 10px 0 10px;
+	border-top: 1px solid #dfdfdf;
+}
+
+.remove-disabled{
+	opacity: 0.5;
+}
+
+.other-buttons .button{
+	margin-right: 0.5em;
+}
+
+.submit{
+	display: inline-block;
+	margin-right: 0.25em;
+}
+
+.plugin-footer{
+	overflow: hidden;
+	border-top: 1px solid #dfdfdf;
+	margin-top: 1.4em;
+}
+
+.donate{
+	margin-top: 1.4em;
+}
+
+.donate span + input{
+	vertical-align: middle;
+	transform: translateY(-.1em);
+}
+
+.donate > form > span{
+	display: block;
+    margin-bottom: .75em;
+}
+
+.donate > form > span > b{
+	display: inline-block;
+}
+
+.description code{
+	font-style: normal;
+}
+
+.oldwp-plugin-help-section{
+	display: none;
+}
+
+.oldwp-plugin-help-section.oldwp-plugin-help-section-active{
+	display: block;
+}
+
+.wp-core-ui .button.mPS2id-show-option-common-values{
+	margin: 4px 0 8px 0;
+}
+
+.mPS2id-show-option-common-values + span{
+	display: none;
+	position: relative;
+}
+
+.mPS2id-show-option-common-values + span.mPS2id-show{
+	display: block;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.plugin-body{
+	position: relative;
+}
+
+.plugin-body-section-2{
+	display: block; /* plugin settings banner on */
+	/* display: none; */ /* plugin settings banner off */
+    min-height: 100px;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+.plugin-body-section-2 img{
+	max-width: 100%;
+	height: auto;
+	margin:.25em 0;
+}
+
+.plugin-body-section-2 > *:first-child{
+	display: block;
+	font-size: 13px;
+    line-height: 1.5;
+    color: #777;
+	margin-bottom: 1em;
+	margin-left: .25em;
+	margin-right: .25em;
+	font-style: italic;
+}
+
+.plugin-body-section-2 > *:first-child > b, .donate > form > span > b{
+	font-size: 17px;
+    transform: translateY(.05em);
+    margin-left: .2em;
+    font-weight: 400;
+	font-style: normal;
+}
+
+.plugin-body-section-2 > *:first-child > b{
+	display: none;
+}
+
+@media only screen and (min-width: 480px){
+	/* plugin settings banner on */
+	.plugin-body-section-1{
+		margin-right: calc(35vw + 1em);
+	}
+
+	.plugin-body-section-2{
+		position: absolute;
+		text-align: right;
+		width: 35vw;
+	}
+}
+
+@media only screen and (min-width: 576px){
+	.plugin-body-section-2 img{
+		margin-left: .5em;
+		margin-right: .5em;
+	}
+
+	.plugin-body-section-2 > *:first-child{
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.plugin-body-section-2 > *:first-child > b{
+		display: inline-block;
+	}
+
+	.donate > form > span{
+		display: inline-block;
+		margin-right: .75em;
+	}
+}
+
+@media only screen and (min-width: 782px){
+	/* plugin settings banner on */
+	.plugin-body-section-1{
+		margin-right: calc(25vw + 1em);
+	}
+
+	.plugin-body-section-2{
+		width: 25vw;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	/* plugin settings banner on */
+	.plugin-body-section-1{
+		margin-right: calc(18vw + 1em);
+	}
+
+	.plugin-body-section-2{
+		width: 18vw;
+	}
+}

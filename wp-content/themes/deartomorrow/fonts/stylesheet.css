@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Elephant';
+    src: url('Elephant-Regular.woff2') format('woff2'),
+        url('Elephant-Regular.woff') format('woff'),
+        url('Elephant-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TarzanaNarrow';
+    src: url('Tarzana-Narrow.woff2') format('woff2'),
+        url('Tarzana-Narrow.woff') format('woff'),
+        url('Tarzana-Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TarzanaNarrow';
+    src: url('TarzanaNarrowBold.woff2') format('woff2'),
+        url('TarzanaNarrowBold.woff') format('woff'),
+        url('TarzanaNarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TarzanaNarrow';
+    src: url('TarzanaNarrowBoldItalic.woff2') format('woff2'),
+        url('TarzanaNarrowBoldItalic.woff') format('woff'),
+        url('TarzanaNarrowBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'TarzanaNarrow';
+    src: url('TarzanaNarrowItalic.woff2') format('woff2'),
+        url('TarzanaNarrowItalic.woff') format('woff'),
+        url('TarzanaNarrowItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+

@@ -1,0 +1,21 @@
+@use "tailwindcss/base";
+
+@use "tailwindcss/components";
+
+@use "tailwindcss/utilities";
+
+@use "./base/colors.scss";
+@use "./base/typography.scss";
+@use "./base/global.scss";
+
+@use "./components/header.scss";
+@use "./components/index.scss";
+
+/* admin bar fix */
+body.admin-bar {
+  max-height: calc(100vh - 32px);
+}
+body {
+  background-color: var(--paper-white);
+  color: var(--midnight-blue);
+}

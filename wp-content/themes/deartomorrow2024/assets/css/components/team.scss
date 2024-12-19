@@ -1,0 +1,79 @@
+.team-tabs {
+    &__tab {
+        @apply cursor-pointer opacity-40;
+        &.active {
+            @apply opacity-100;
+        }
+    }
+}
+.team-tab-panels {
+    &__panel {
+        @apply hidden;
+        &.active {
+            @apply block;
+        }
+    }
+    .swiper-slide {
+        margin-right: 6px !important;
+    }
+    
+    .team-member-card {
+        @apply relative brightness-50 transition-all;
+        .team-member-card__content {
+            @apply absolute bottom-0 left-0 right-0 hidden px-3 pb-4.5 py-10;
+            background: linear-gradient(0deg, var(--midnight-blue) 0%, transparent 100%);
+        }
+        &:hover {
+            @apply brightness-100;
+            .team-member-card__content {
+                @apply flex;
+            }
+        }
+    }
+    .swiper-navigation {
+        @apply absolute top-1/2 w-full z-10 -translate-y-1/2;
+    }
+    .swiper-prev-button:after,
+    .swiper-rtl .swiper-next-button:after {
+        content: none !important;
+    }
+
+    .swiper-next-button:after,
+    .swiper-rtl .swiper-prev-button:after {
+        content: none !important;
+    }
+}
+
+.modal-bio {
+    @apply fixed z-10 left-0 top-0 w-full h-full bg-black bg-opacity-50 overflow-auto p-12 hidden;
+
+    &.active {
+        @apply flex items-center justify-center;
+    }
+    .modal-content {
+        @apply bg-midnight-blue w-135 h-full rounded-lg relative overflow-hidden;
+
+        .modal-close {
+            @apply bg-paper-white cursor-pointer flex items-center justify-center w-8 h-8 rounded-full p-0 absolute right-8 top-7 z-50 transition-all;
+            padding-left: 2px;
+
+            svg {
+                @apply fill-midnight-blue;
+            }
+
+            &:focus {
+                @apply outline-none;
+            }
+            &:hover {
+                @apply bg-midnight-blue;
+                svg {
+                    @apply fill-paper-white;
+                }
+                &:before,
+                &:after {
+                    @apply bg-paper-white;
+                }
+            }
+        }
+    }
+}

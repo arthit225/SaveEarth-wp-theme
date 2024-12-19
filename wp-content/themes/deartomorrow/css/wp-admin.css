@@ -1,0 +1,3 @@
+
+/* Notification Hides */
+.rs-update-notice-wrap, .redux-notice, .wpforms-review-notice, .tribe-dismiss-notice, .ac-notice, .mo-admin-notice { display: none !important; }

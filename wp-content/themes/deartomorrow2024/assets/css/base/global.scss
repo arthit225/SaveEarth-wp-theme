@@ -1,0 +1,51 @@
+.lazyload,
+.lazyloading {
+  &:not(.ls-is-cached) {
+    opacity: 0;
+    transition: opacity ease-in-out 0.5s;
+    &.blur-up {
+      opacity: 1;
+    }
+  }
+}
+
+.lazyloaded {
+  &:not(.ls-is-cached) {
+    transition: opacity ease-in-out 0.5s;
+    opacity: 1;
+    &.blur-up {
+      opacity: 1;
+    }
+  }
+}
+
+
+//Links
+.hover-underline {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(currentColor), to(currentColor));
+	background-image: linear-gradient(currentColor, currentColor);
+	background-position: 0% 100%;
+	background-repeat: no-repeat;
+	background-size: 0% 0.1em;
+	transition: background-size 0.3s;
+	text-decoration: none;
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+
+	&:hover {
+		background-size: 100% 0.1em;
+		color: currentColor !important;
+		border-color: transparent !important;
+		text-decoration: none !important;
+	}
+
+	&--always-underlined {
+		background-size: 100% 0.1em;
+
+		&:hover {
+			animation-name: hoverUnderline;
+			animation-duration: 0.3s;
+		}
+	}
+}

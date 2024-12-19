@@ -1,0 +1,93 @@
+.pt_plus_social_list.style-10 ul.social_list li a {
+    position: relative;
+    margin-right: 0;
+    background: #404040;
+    color: #fff;
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px
+}
+
+.pt_plus_social_list.style-10 li span {
+    line-height: 20px !important
+}
+
+.pt_plus_social_list.style-10 ul.social_list li {
+    margin-right: 10px
+}
+
+.pt_plus_social_list.style-10 ul.social_list li:hover a {
+    background: #222;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    color: #fff
+}
+
+.pt_plus_social_list.style-10 span {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 13px;
+    text-align: center;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    opacity: 0;
+    -webkit-filter: blur(25px);
+    filter: blur(25px);
+    -webkit-transform: translateZ(0) translateX(0%);
+    -moz-transform: translateZ(0) translateX(0%);
+    -ms-transform: translateZ(0) translateX(0%);
+    -o-transform: translateZ(0) translateX(0%);
+    transform: translateZ(0) translateX(0%);
+    will-change: transform;
+    left: 0;
+    right: 0
+}
+
+.pt_plus_social_list.style-10 li:hover span {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    opacity: 1;
+    -webkit-filter: blur(0);
+    filter: blur(0)
+}
+
+.pt_plus_social_list.style-10 ul.social_list li a .fa {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out
+}
+
+.pt_plus_social_list.style-10 ul.social_list li:hover a .fa {
+    transform: scale(0)
+}
+.pt_plus_social_list.style-10 li span,.pt_plus_social_list.style-12 ul.social_list li a .fa{
+    display: -webkit-box;
+   display: -webkit-flex;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-pack: center;
+   -webkit-justify-content: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+   -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}

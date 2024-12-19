@@ -1,0 +1,25 @@
+# Local configuration settings we don't want to track.
+.htaccess
+wp-config.private.php
+# phpinfo information file and debug info.
+phpinfo.php
+wp-content/debug.log
+wp-content/backups-dup-pro
+# Uploads.
+wp-content/uploads
+
+# Caching we don't want to track.
+wp-content/cache
+wp-content/et-cache
+wp-content/advanced-cache.php
+wp-content/object-cache.php
+wp-content/wp-rocket-config/
+wp-content/object-cache.php
+
+# Ignore sql backups.
+*.sql
+
+# Ignore robots.txt
+robots.txt
+wp-content/uploads.zip
+.env

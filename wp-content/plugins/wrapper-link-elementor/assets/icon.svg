@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 200.08 193.43">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+
+      .b, .c {
+        fill: #fff;
+      }
+
+      .c {
+        font-size: 12.61px;
+        font-family: GlacialIndifference-Bold, Glacial Indifference;
+        font-weight: 700;
+        letter-spacing: 0.13em;
+      }
+
+      .d {
+        font-family: GlacialIndifference-Regular, Glacial Indifference;
+        font-weight: 400;
+        letter-spacing: 0.12em;
+      }
+    </style>
+    <linearGradient id="a" data-name="Gradiente sem nome 5" x1="1.66" y1="195.09" x2="198.42" y2="-1.66" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7d266b"/>
+      <stop offset="1" stop-color="#e4225e"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect class="a" width="200.08" height="193.43"/>
+    <path class="b" d="M146.61,75.37A4.05,4.05,0,0,0,145,72.28l-8.57-5,8.81-5.47a3.72,3.72,0,0,0,0-6.19L102.37,31.36a4.33,4.33,0,0,0-4.76,0L55.26,55.86a3.31,3.31,0,0,0-1.66,2.86,4.09,4.09,0,0,0,1.66,3.09l8.8,5.47-8.56,5a3.7,3.7,0,0,0-1.9,3.09,4.05,4.05,0,0,0,1.66,3.09l8.8,5.47-8.56,5A3.7,3.7,0,0,0,53.6,92a4.05,4.05,0,0,0,1.66,3.09l42.35,26.65a4.81,4.81,0,0,0,2.61.71,5.46,5.46,0,0,0,2.62-.71l42.35-26.65a3.71,3.71,0,0,0,0-6.18l-8.57-5,8.8-5.47A5.24,5.24,0,0,0,146.61,75.37ZM101.18,36.12,140.67,59,101.41,83.69a2.54,2.54,0,0,1-2.61,0L59.54,59,98.8,36.12A2.15,2.15,0,0,1,101.18,36.12Zm39.49,56.14L101.41,117a2.54,2.54,0,0,1-2.61,0L59.54,92.26l9-5.24,29,18.32a4.74,4.74,0,0,0,2.61.72,5.37,5.37,0,0,0,2.62-.72l29-18.32ZM98.8,100.35,59.54,75.61l9-5.24,29,18.32a4.73,4.73,0,0,0,2.61.71,5.35,5.35,0,0,0,2.62-.71l29-18.32,9,5.24-39.49,24.74A2.58,2.58,0,0,1,98.8,100.35Z"/>
+    <text class="c" transform="translate(49.5 143.45)">W<tspan class="d" x="13.09" y="0">RAPPER </tspan><tspan x="69.37" y="0">L</tspan><tspan class="d" x="77.11" y="0">INK </tspan><tspan x="11.77" y="15.13">E</tspan><tspan class="d" x="19.83" y="15.13">LEMENTOR</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<wpml-config>
+  <custom-types>
+    <custom-type translate="1">templately_library</custom-type>
+  </custom-types>
+  <custom-fields>
+    <custom-field action="copy">_templately_template_type</custom-field>
+    <custom-field action="copy">_templately_template_platform</custom-field>
+    <custom-field action="copy">_templately_conditions</custom-field>
+    <custom-field action="copy">_templately_import_session_id</custom-field>
+  </custom-fields>
+</wpml-config>

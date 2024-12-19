@@ -1,0 +1,507 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; "
+"charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: "
+"8bit\n"
+"X-Generator: Poedit 2.0.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;"
+"_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: src/Core.php:95
+#: templates/admin.php:2
+msgid "WP fancyBox3 Settings"
+msgstr ""
+
+#: src/Core.php:96
+msgid "WP fancyBox3"
+msgstr ""
+
+#: src/Core.php:111
+msgid "Settings"
+msgstr ""
+
+#: templates/admin.php:7
+msgid "Custom selector"
+msgstr ""
+
+#: templates/admin.php:10
+msgid "Custom Selector"
+msgstr ""
+
+#: templates/admin.php:14
+msgid ""
+"Use your own elements "
+"selector instead of a "
+"plugin variant."
+msgstr ""
+
+#: templates/admin.php:15
+#: templates/admin.php:61
+#: templates/admin.php:74
+#: templates/admin.php:164
+#: templates/admin.php:180
+#: templates/admin.php:236
+#: templates/admin.php:251
+#: templates/admin.php:296
+#: templates/admin.php:397
+#: templates/admin.php:489
+msgid ""
+"Leave it blank for default "
+"value"
+msgstr ""
+
+#: templates/admin.php:23
+msgid "Create a gallery"
+msgstr ""
+
+#: templates/admin.php:29
+msgid ""
+"Combine all images on a "
+"page in one gallery"
+msgstr ""
+
+#: templates/admin.php:33
+msgid "Loop"
+msgstr ""
+
+#: templates/admin.php:39
+msgid ""
+"Enable infinite gallery "
+"navigation"
+msgstr ""
+
+#: templates/admin.php:43
+msgid "Margin"
+msgstr ""
+
+#: templates/admin.php:47
+msgid "Vertical"
+msgstr ""
+
+#: templates/admin.php:54
+msgid "Horizontal"
+msgstr ""
+
+#: templates/admin.php:60
+msgid ""
+"Space around image, "
+"ignored if zoomed-in or "
+"viewport smaller than "
+"800px."
+msgstr ""
+
+#: templates/admin.php:65
+#: templates/admin.php:68
+msgid "Gutter"
+msgstr ""
+
+#: templates/admin.php:73
+msgid ""
+"Horizontal space between "
+"slides."
+msgstr ""
+
+#: templates/admin.php:78
+msgid "Keyboard"
+msgstr ""
+
+#: templates/admin.php:84
+msgid ""
+"Enable keyboard navigation"
+msgstr ""
+
+#: templates/admin.php:88
+msgid "Arrows"
+msgstr ""
+
+#: templates/admin.php:94
+msgid ""
+"Should display navigation "
+"arrows at the screen edges"
+msgstr ""
+
+#: templates/admin.php:98
+msgid "Infobar"
+msgstr ""
+
+#: templates/admin.php:104
+msgid ""
+"Should display infobar "
+"(counter and arrows at the "
+"top)"
+msgstr ""
+
+#: templates/admin.php:108
+msgid "Toolbar"
+msgstr ""
+
+#: templates/admin.php:114
+msgid ""
+"Should display toolbar "
+"(buttons at the top)"
+msgstr ""
+
+#: templates/admin.php:118
+msgid "Buttons"
+msgstr ""
+
+#: templates/admin.php:121
+msgid "SlideShow"
+msgstr ""
+
+#: templates/admin.php:127
+msgid "FullScreen"
+msgstr ""
+
+#: templates/admin.php:133
+#: templates/admin.php:483
+#: templates/front.php:70
+msgid "Share"
+msgstr ""
+
+#: templates/admin.php:139
+#: templates/admin.php:401
+msgid "Thumbs"
+msgstr ""
+
+#: templates/admin.php:145
+#: templates/admin.php:424
+#: templates/front.php:62
+msgid "Close"
+msgstr ""
+
+#: templates/admin.php:151
+msgid ""
+"What buttons should appear "
+"in the top right corner"
+msgstr ""
+
+#: templates/admin.php:155
+#: templates/admin.php:158
+msgid "idle Time"
+msgstr ""
+
+#: templates/admin.php:163
+msgid ""
+"Detect \"idle\" time in "
+"seconds."
+msgstr ""
+
+#: templates/admin.php:168
+#: templates/admin.php:172
+msgid "Small Buttons"
+msgstr ""
+
+#: templates/admin.php:177
+msgid ""
+"Should display buttons at "
+"top right corner of the "
+"content\n"
+"                    If "
+"\"auto\" - they will be "
+"created for content having "
+"type \"html\", \"inline\" "
+"or \"ajax\"."
+msgstr ""
+
+#: templates/admin.php:184
+msgid "Protect"
+msgstr ""
+
+#: templates/admin.php:190
+msgid ""
+"Disable right-click and "
+"use simple image "
+"protection for images"
+msgstr ""
+
+#: templates/admin.php:194
+msgid "Modal"
+msgstr ""
+
+#: templates/admin.php:200
+msgid ""
+"Shortcut to make content "
+"\"modal\" - disable "
+"keyboard navigation, hide "
+"buttons, etc"
+msgstr ""
+
+#: templates/admin.php:205
+msgid "Animation Effect"
+msgstr ""
+
+#: templates/admin.php:208
+#: templates/admin.php:259
+msgid "Disable"
+msgstr ""
+
+#: templates/admin.php:210
+msgid ""
+"Zoom - zoom images from/to "
+"thumbnail"
+msgstr ""
+
+#: templates/admin.php:213
+#: templates/admin.php:262
+msgid "Fade"
+msgstr ""
+
+#: templates/admin.php:216
+#: templates/admin.php:274
+msgid "Zoom-in-Out"
+msgstr ""
+
+#: templates/admin.php:221
+msgid ""
+"Open/close animation type"
+msgstr ""
+
+#: templates/admin.php:225
+#: templates/admin.php:229
+msgid "Animation Duration"
+msgstr ""
+
+#: templates/admin.php:234
+msgid ""
+"Duration in ms for open/"
+"close animation."
+msgstr ""
+
+#: templates/admin.php:240
+#: templates/admin.php:243
+msgid "Zoom Opacity"
+msgstr ""
+
+#: templates/admin.php:248
+msgid ""
+"Should image change "
+"opacity while zooming.\n"
+"                    If "
+"opacity is \"auto\", then "
+"opacity will be changed if "
+"image and thumbnail have "
+"different\n"
+"                    aspect "
+"ratios."
+msgstr ""
+
+#: templates/admin.php:255
+msgid "Transition Effect"
+msgstr ""
+
+#: templates/admin.php:265
+msgid "Slide"
+msgstr ""
+
+#: templates/admin.php:268
+msgid "Circular"
+msgstr ""
+
+#: templates/admin.php:271
+msgid "Tube"
+msgstr ""
+
+#: templates/admin.php:277
+msgid "Rotate"
+msgstr ""
+
+#: templates/admin.php:283
+msgid ""
+"Transition effect between "
+"slides"
+msgstr ""
+
+#: templates/admin.php:287
+#: templates/admin.php:290
+msgid "Transition Duration"
+msgstr ""
+
+#: templates/admin.php:295
+msgid ""
+"Duration in ms for "
+"transition animation."
+msgstr ""
+
+#: templates/admin.php:300
+#: templates/admin.php:303
+msgid "Slide Class"
+msgstr ""
+
+#: templates/admin.php:308
+msgid ""
+"Custom CSS class for slide "
+"element"
+msgstr ""
+
+#: templates/admin.php:312
+#: templates/admin.php:315
+msgid "Base Class"
+msgstr ""
+
+#: templates/admin.php:320
+msgid ""
+"Custom CSS class for layout"
+msgstr ""
+
+#: templates/admin.php:324
+msgid "Auto Focus"
+msgstr ""
+
+#: templates/admin.php:330
+msgid ""
+"Try to focus on the first "
+"focusable element after "
+"opening"
+msgstr ""
+
+#: templates/admin.php:334
+msgid "Back Focus"
+msgstr ""
+
+#: templates/admin.php:340
+msgid ""
+"Put focus back to active "
+"element after closing"
+msgstr ""
+
+#: templates/admin.php:344
+msgid "Trap Focus"
+msgstr ""
+
+#: templates/admin.php:350
+msgid ""
+"Do not let user to focus "
+"on element outside modal "
+"content"
+msgstr ""
+
+#: templates/admin.php:354
+msgid "FullScreen Auto Start"
+msgstr ""
+
+#: templates/admin.php:363
+msgid "Touch"
+msgstr ""
+
+#: templates/admin.php:366
+msgid ""
+"Allow to drag content "
+"vertically"
+msgstr ""
+
+#: templates/admin.php:372
+msgid ""
+"Continue movement after "
+"releasing mouse/touch when "
+"panning"
+msgstr ""
+
+#: templates/admin.php:381
+msgid "Slide Show"
+msgstr ""
+
+#: templates/admin.php:384
+msgid "Auto Start"
+msgstr ""
+
+#: templates/admin.php:391
+msgid "Speed"
+msgstr ""
+
+#: templates/admin.php:404
+msgid ""
+"Display thumbnails on "
+"opening"
+msgstr ""
+
+#: templates/admin.php:410
+msgid ""
+"Hide thumbnail grid when "
+"closing animation starts"
+msgstr ""
+
+#: templates/admin.php:419
+msgid "Translations"
+msgstr ""
+
+#: templates/admin.php:432
+#: templates/front.php:63
+msgid "Next"
+msgstr ""
+
+#: templates/admin.php:440
+#: templates/front.php:64
+msgid "Previous"
+msgstr ""
+
+#: templates/admin.php:447
+msgid "Error"
+msgstr ""
+
+#: templates/admin.php:456
+#: templates/front.php:66
+msgid "Start slideshow"
+msgstr ""
+
+#: templates/admin.php:463
+#: templates/front.php:67
+msgid "Pause slideshow"
+msgstr ""
+
+#: templates/admin.php:470
+#: templates/front.php:68
+msgid "Full screen"
+msgstr ""
+
+#: templates/admin.php:477
+#: templates/front.php:69
+msgid "Thumbnails"
+msgstr ""
+
+#: templates/admin.php:493
+msgid ""
+"Custom initialization "
+"JavaScript Code"
+msgstr ""
+
+#: templates/admin.php:499
+msgid ""
+"This code will be added "
+"into the Fancybox "
+"initialization JavaScript "
+"code.\n"
+"                    Be "
+"careful and left it blank "
+"if you don't understand "
+"what you doing."
+msgstr ""
+
+#: templates/admin.php:507
+msgid ""
+"Please see more "
+"documentation and "
+"information about license "
+"on <a\n"
+"            href=\"http://"
+"fancyapps.com/fancybox/3/"
+"\" target=\"_blank"
+"\">fancyapps.com</a>"
+msgstr ""
+
+#: templates/front.php:65
+msgid ""
+"The requested content "
+"cannot be loaded. <br/> "
+"Please try again later."
+msgstr ""

@@ -1,0 +1,17 @@
+/*--------------------------------------------------------------
+## Copyright
+--------------------------------------------------------------*/
+
+.copyright {
+  border-top: 1px solid;
+  border-color: var(--paper-white);
+  p {
+    span {
+      font-weight: bold;
+    }
+
+    a {
+      text-decoration: underline;
+    }
+  }
+}

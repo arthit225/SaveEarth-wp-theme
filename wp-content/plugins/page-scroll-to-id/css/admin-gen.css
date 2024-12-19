@@ -1,0 +1,10 @@
+/* admin general styling */
+
+/* tinyMCE */
+i.mce-i-icon{ font: 400 20px/1 dashicons; padding: 0; vertical-align: top; speak: none; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; margin-left: -2px; padding-right: 2px }
+i.ps2id-custom-icon-link{ background-image: url('tinymce-custom-btn-ps2id-link.png'); }
+i.ps2id-custom-icon-target{ background-image: url('tinymce-custom-btn-ps2id-target.png'); }
+/* widgets */
+.ps2id-admin-widgets-row-help{ text-align: right; }
+.ps2id-admin-widgets-row-field-desc{ display: block; }
+.widgets-holder-wrap .description.ps2id-admin-widgets-row-field-desc{ padding-bottom: 0; }

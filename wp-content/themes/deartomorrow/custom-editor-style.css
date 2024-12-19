@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
+body#tinymce.wp-editor {
+    font-family: 'Lato';
+    color: #666;
+    font-size: .95em;
+}
+
+body#tinymce.wp-editor h3 {
+    font-size: 1.6em;
+    color: #DE4800;
+}
+
+
+body#tinymce.wp-editor h4 {
+    font-size: 1.5em;
+    color: #172c63;
+}
+
+body#tinymce.wp-editor h6 {
+    font-size: .975em;
+    color: #666;
+    text-transform: uppercase;
+    margin: 8px 0px 8px 8px;
+}
+

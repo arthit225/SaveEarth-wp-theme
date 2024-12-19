@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+## Floating Images
+--------------------------------------------------------------*/
+@keyframes animateOdd {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(50%);
+  } 
+}
+@keyframes animateEven {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+ 100% {
+    transform: translateY(-50%);
+  }  
+}
+
+.floating-images {
+  .h1 {
+    p:nth-of-type(2n) {
+      @apply text-right mt-14;
+    }
+  }
+  // &__column {
+  //   animation: animateOdd 30s infinite;
+  //   &:nth-last-of-type(odd) {
+  //      animation: animateOdd 60s infinite;
+  //   }
+  // }
+  img {
+    max-width: 50% !important;
+  }
+}
+
+

@@ -1,0 +1,16 @@
+.elementor-add-new-section .tp-wkit-main-logo-div {
+    display: flex;
+    background-image: url('../../images/wdesignkit/Wdesignkit-logo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: auto;
+    background-size: contain;
+}
+
+.elementor-add-new-section .elementor-add-section-area-button.elementor-action-tp-wdkit-button {
+    padding : 10px;
+    background-color: #040483;
+    margin-left: 5px;
+    vertical-align: bottom;
+}

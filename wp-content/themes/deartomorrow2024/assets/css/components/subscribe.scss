@@ -1,0 +1,65 @@
+/*--------------------------------------------------------------
+## Footer
+--------------------------------------------------------------*/
+
+.subscribe {
+  input[type="text"] {
+    width: 100%;
+    padding: 10px 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--paper-white);
+    color: var(--paper-white);
+    background: transparent;
+  }
+
+  input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 16px;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--paper-white);
+    color: var(--midnight-blue);
+    background: var(--paper-white);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    &:hover {
+      color: var(--paper-white);
+      background: var(--midnight-blue);
+    }
+  }
+
+  .img-wrapper {
+    width: 250px;
+    height: 315px;
+    .img {
+      position: absolute!important;
+      width: 208px;
+      height: 260px;
+      right: 0;
+      bottom: 12px;
+      border-radius: 6px;
+      overflow: hidden;
+      background-size: cover;
+      background-repeat:no-repeat;
+      background-position: center center;
+    }
+
+    .img.rotate-1 {
+      transform: rotate(-10deg);
+      right: 20px;
+    }
+    .img.rotate-2 {
+      transform: rotate(-20deg);
+      right: 30px;
+    }
+  }
+}
